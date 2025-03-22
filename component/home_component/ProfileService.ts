@@ -54,7 +54,7 @@ export function getLastUpdate(): string {
 
 
 export function getLinkCV(): string {
-    return "https://drive.google.com/file/d/1ID_sNAynq6y8GHXasc1mPi8l2F_jSEND/view?usp=drive_link";
+    return "https://drive.google.com/file/d/1uAyl6fxQuu7JW_I9AjBmh2i0HQByVUlq/view?usp=share_link";
 }
 
 export function getProfile(): ProfileInfoM {
@@ -213,7 +213,7 @@ export function getSkillServiceV2(): SkillM[] {
                     framework: ["-"]
                 },
                 {
-                    title: "PostgresSQL",
+                    title: "PostgreSQL",
                     detail: "",
                     framework: ["-"]
                 },
@@ -293,6 +293,11 @@ export function getSkillServiceV2(): SkillM[] {
                     title: "AWS",
                     detail: "",
                     framework: ["ECS", "EC2"]
+                },
+                {
+                    title: "JBoss",
+                    detail: "",
+                    framework: ["EAP", "WildFly"]
                 }
             ]
         },
