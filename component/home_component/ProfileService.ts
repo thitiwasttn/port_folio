@@ -54,7 +54,7 @@ export function getLastUpdate(): string {
 
 
 export function getLinkCV(): string {
-    return "https://drive.google.com/file/d/1uAyl6fxQuu7JW_I9AjBmh2i0HQByVUlq/view?usp=share_link";
+    return "https://drive.google.com/file/d/1-II0j3jQ754d6ObrLKEk7XZGUMsUD489/view?usp=drivesdk";
 }
 
 export function getProfile(): ProfileInfoM {
