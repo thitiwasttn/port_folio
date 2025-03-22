@@ -48,7 +48,7 @@ export default function ProfileInfoComponent() {
                         <div className={"col-12 mt-2"}>
                             <div className={"d-flex align-items-center "}>
                                 <div>
-                                    <img className={"ms-3 me-2"} src={emailIcon.src} height={17} width={17} alt=""/>
+                                    <img className={"ms-3 me-2"} src={emailIcon.src} height={16} width={16} alt=""/>
                                     <span className={"me-2"}>{profileM.email}</span>
                                 </div>
                             </div>
