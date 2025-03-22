@@ -127,7 +127,7 @@ export function getExperience(): Experience[] {
                 "Develop Backend, Design Database and Web admin for Coffee Mobile Ordering Application (แอปพลิเคชั่น สั่งกาแฟ)",
                 "Develop Backend, Design Database and Web admin for University Application (แอปพลิเคชั่นสำหรับนักศึกษามหาวิทยาลัย)",
                 "Maintain Company SMS backend (ดูแลรักษา SMS ของบริษัท)",
-                'งาน presale ศึกษาความเป็นไปได้ด้านเทคโนโลยีของโปรเจคที่ลูกค้าสนใจ'
+                'Presales work involves studying the technological feasibility of projects that customers are interested in'
             ]
         },
     ]
