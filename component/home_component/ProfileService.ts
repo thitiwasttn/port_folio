@@ -62,10 +62,30 @@ export function getProfile(): ProfileInfoM {
     }
 }
 
+function calculateDifference(startYear:number, startMonth:number) {
+    const startDate = new Date(startYear, startMonth - 1); // Months are 0-based
+    const currentDate = new Date();
+
+    let years = currentDate.getFullYear() - startDate.getFullYear();
+    let months = currentDate.getMonth() - startDate.getMonth();
+
+    if (months < 0) {
+        years--;
+        months += 12;
+    }
+
+    return { years, months };
+}
+
+// const result = calculateDifference(2023, 4);
+// console.log(`${result.years} years, ${result.months} months`);
+
+
 export function getExperience(): Experience[] {
+    const worktime = calculateDifference(2023, 4);
     return [
         {
-            date: "APRIL 2023 - PRESENT",
+            date: `APRIL 2023 - PRESENT (${worktime.years} years ${worktime.months} months)`,
             name: "Java Developer, Software Developer | Degile (On site AIS)",
             link: 'https://digile.com/',
             responsibilities: [
@@ -85,7 +105,7 @@ export function getExperience(): Experience[] {
                 "SMS Software for AIS activities"
             ]
         },{
-            date: "1 APRIL 2020 - APRIL 2023",
+            date: "1 APRIL 2020 - APRIL 2023  (3 years)",
             name: "Application Developer | G-ABLE",
             link: 'https://www.g-able.com/',
             responsibilities: [
