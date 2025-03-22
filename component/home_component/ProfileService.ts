@@ -111,11 +111,17 @@ export function getExperience(): Experience[] {
 
 
 export async function getSkillService() {
-    return axios.post<ResponseWrapper<SkillM[]>>("http://localhost:8081/api/v1/s/skill", null, {
-        headers: {
-            Authorization: `Bearer ${token}`,
-        }
-    });
+    // return axios.post<ResponseWrapper<SkillM[]>>("http://localhost:8081/api/v1/s/skill", null, {
+    //     headers: {
+    //         Authorization: `Bearer ${token}`,
+    //     }
+    // });
+    const temp: ResponseWrapper<SkillM[]> = {
+        status: "",
+        objectValue: getSkillServiceV2(),
+        code: "200"
+    }
+    return temp;
 }
 
 export function getSkillServiceV2(): SkillM[] {

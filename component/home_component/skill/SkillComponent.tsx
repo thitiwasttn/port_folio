@@ -13,7 +13,7 @@ export default function SkillComponent() {
     useEffect(() => {
         getSkillService().then(value => {
             console.log('value ==> ', value);
-            setSkills(value.data.objectValue)
+            setSkills(value.objectValue)
         })
         console.log('skills ', skills);
     }, [])
