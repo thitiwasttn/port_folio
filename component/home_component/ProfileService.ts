@@ -58,7 +58,7 @@ export function getLinkCV(): string {
 
 export function getProfile(): ProfileInfoM {
     return {
-        email: "twopee26@gmail.com", name: "Thitiwas Nupan", rolePosition: "Software Developer", telno: "094-251-8661"
+        email: "thitiwas.n@icloud.com", name: "Thitiwas Nupan", rolePosition: "Software Developer", telno: "094-251-8661"
     }
 }
 
