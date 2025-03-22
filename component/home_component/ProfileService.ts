@@ -65,6 +65,26 @@ export function getProfile(): ProfileInfoM {
 export function getExperience(): Experience[] {
     return [
         {
+            date: "APRIL 2023 - PRESENT",
+            name: "Java Developer, Software Developer | Degile (On site AIS)",
+            link: 'https://digile.com/',
+            responsibilities: [
+                "Receive requirements form user and convert to development task",
+                "Estimate task to develop time",
+                "Design Database structure",
+                "Develop software (Backend, Frontend, Server Task)",
+                "Deploy software to Development Server & Staging Server",
+                "Diagnosis & fix if any defects or issues from Production",
+                "Support staff & team",
+                "Communicate between user & development team",
+                "Support deployment software to production"
+            ],
+            image: [digile.src, ais.src],
+            project: [
+                "Internal 6 Software for engineers",
+                "SMS Software for AIS activities"
+            ]
+        },{
             date: "1 APRIL 2020 - APRIL 2023",
             name: "Application Developer | G-ABLE",
             link: 'https://www.g-able.com/',
@@ -85,27 +105,6 @@ export function getExperience(): Experience[] {
                 'งาน presale ศึกษาความเป็นไปได้ด้านเทคโนโลยีของโปรเจคที่ลูกค้าสนใจ'
             ]
         },
-        {
-            date: "APRIL 2023 - PRESENT",
-            name: "Java Developer, Software Developer | Degile (On site AIS)",
-            link: 'https://digile.com/',
-            responsibilities: [
-                "Receive requirements form user and convert to development task",
-                "Estimate task to develop time",
-                "Design Database structure",
-                "Develop software (Backend, Frontend, Server Task)",
-                "Deploy software to Development Server & Staging Server",
-                "Diagnosis & fix if any defects or issues from Production",
-                "Support staff & team",
-                "Communicate between user & development team",
-                "Support deployment software to production"
-            ],
-            image: [digile.src, ais.src],
-            project: [
-                "Internal 6 Software for engineers",
-                "SMS Software for AIS activities"
-            ]
-        }
     ]
 }
 
