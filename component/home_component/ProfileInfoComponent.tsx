@@ -1,6 +1,7 @@
 import './ProfileInfoComponent.css'
 import avatar from '@/public/image/me.jpg'
 import home from '@/public/image/home.png'
+import age from '@/public/image/age.png'
 import HomeIcon from "@/component/home_component/HomeIcon";
 import thailandFlag from '@/public/image/thailand.png'
 import emailIcon from '@/public/image/email.png'
@@ -30,9 +31,7 @@ export default function ProfileInfoComponent() {
                             <span
                                 className="fs-5 d-flex justify-content-center fst-italic text-body-secondary">{profileM.rolePosition}</span>
                         </div>
-                        {/*<div className={"col-12"}>
-                            <hr/>
-                        </div>*/}
+
                         <div className={"col-12 mt-4"}>
                             <div className={"d-flex align-items-center"}>
                                 <div>
@@ -48,8 +47,17 @@ export default function ProfileInfoComponent() {
                         <div className={"col-12 mt-2"}>
                             <div className={"d-flex align-items-center "}>
                                 <div>
+                                    <img className={"ms-3 me-2"} src={age.src} height={16} width={16} alt=""/>
+                                    <span className={"me-2"}>{profileM.age}</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className={"col-12 mt-2"}>
+                            <div className={"d-flex align-items-center "}>
+                                <div>
                                     <img className={"ms-3 me-2"} src={emailIcon.src} height={16} width={16} alt=""/>
-                                    <span className={"me-2"}>{profileM.email}</span>
+                                    <span className={"me-2"}><a href={`mailto:${profileM.email}`}>{profileM.email}</a></span>
                                 </div>
                             </div>
                         </div>

@@ -48,7 +48,8 @@ export async function getListAreaOfExp(): Promise<ExpertiesM[]> {
 
 
 export function getLastUpdate(): string {
-    return "2024 June"
+    // return "2024 June"
+    return process.env.NEXT_PUBLIC_BUILD_DATE + "";
 }
 
 
@@ -57,8 +58,12 @@ export function getLinkCV(): string {
 }
 
 export function getProfile(): ProfileInfoM {
+    const currentYear = new Date().getFullYear();
+    const born: number = 1997;
+    const age = currentYear - born;
     return {
-        email: "thitiwas.n@icloud.com", name: "Thitiwas Nupan", rolePosition: "Software Developer", telno: "094-251-8661"
+        email: "thitiwas.n@icloud.com", name: "Thitiwas Nupan", rolePosition: "Software Developer", telno: "094-251-8661",
+        age: `${age} years old`
     }
 }
 

@@ -3,4 +3,5 @@ export interface ProfileInfoM {
     rolePosition: string,
     email: string,
     telno: string
+    age: string,
 }
