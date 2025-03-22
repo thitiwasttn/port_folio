@@ -106,7 +106,7 @@ export function getExperience(): Experience[] {
             ],
             image: [digile.src, ais.src],
             project: [
-                "Internal 6 Software for engineers",
+                "6 Internal Software for engineers",
                 "SMS Software for AIS activities"
             ]
         },{
