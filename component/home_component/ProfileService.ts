@@ -90,7 +90,7 @@ export function getExperience(): Experience[] {
     const worktime = calculateDifference(2023, 4);
     return [
         {
-            date: `APRIL 2023 - PRESENT (${worktime.years} years ${worktime.months} months)`,
+            date: `2023 APRIL - PRESENT (${worktime.years} years ${worktime.months} months)`,
             name: "Java Developer, Software Developer | Degile (On site AIS)",
             link: 'https://digile.com/',
             responsibilities: [
@@ -110,7 +110,7 @@ export function getExperience(): Experience[] {
                 "SMS Software for AIS activities"
             ]
         },{
-            date: "1 APRIL 2020 - APRIL 2023  (3 years)",
+            date: "2020 APRIL - 2023 APRIL (3 years)",
             name: "Application Developer | G-ABLE",
             link: 'https://www.g-able.com/',
             responsibilities: [
@@ -124,9 +124,9 @@ export function getExperience(): Experience[] {
                 "Learning new technology",
             ],
             image: [gable.src], project: [
-                "Develop Backend, Design Database and Web admin for Coffee Mobile Ordering Application (แอปพลิเคชั่น สั่งกาแฟ)",
-                "Develop Backend, Design Database and Web admin for University Application (แอปพลิเคชั่นสำหรับนักศึกษามหาวิทยาลัย)",
-                "Maintain Company SMS backend (ดูแลรักษา SMS ของบริษัท)",
+                "Develop Backend, Design Database and Web admin for Coffee Mobile Ordering Application",
+                "Develop Backend, Design Database and Web admin for University Application",
+                "Maintain Company SMS backend",
                 'Presales work involves studying the technological feasibility of projects that customers are interested in'
             ]
         },
