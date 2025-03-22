@@ -1,11 +1,12 @@
 function getBuildDate() {
-    const formattedDate = new Date().toLocaleString("en-GB", {
+    const formattedDate = new Date().toLocaleString("en-TH", {
         year: "numeric",
         month: "long", // Full month name
         day: "2-digit",
         hour: "2-digit",
         minute: "2-digit",
         hour12: false,
+        timeZone: "Asia/Bangkok",
     }).replace(",", "")
     return formattedDate;
 }
