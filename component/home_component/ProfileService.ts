@@ -90,7 +90,7 @@ export function getExperience(): Experience[] {
     const worktime = calculateDifference(2023, 4);
     return [
         {
-            date: `2023 APRIL - PRESENT (${worktime.years} years ${worktime.months} months)`,
+            date: `2023 APRIL - 2025 MAY (2 years)`,
             name: "Java Developer, Software Developer | Degile (On site AIS)",
             link: 'https://digile.com/',
             responsibilities: [
